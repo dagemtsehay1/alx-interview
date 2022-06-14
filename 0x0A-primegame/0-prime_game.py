@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-""" Module for Prime Game """
+"""Given consecutive integers starting from 1 up to and including n"""
 
 
 def isWinner(x, nums):
-    """Solves Prime Game"""
+    """Given consecutive integers starting from 1 up to and including n"""
     if not nums or x < 1:
         return None
     n = max(nums)
@@ -31,4 +31,5 @@ def isWinner(x, nums):
         winner = "Maria"
     else:
         winner = "Ben"
-    return 
+    return winner
+
